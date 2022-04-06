@@ -1,0 +1,8 @@
+venv/
+journal.md
+lab.ipynb
+data/*
+.idea/
+__pycache__/
+workdir/*
+result.txt
