@@ -38,5 +38,5 @@ def compare_random_with_kmeanspp(args):
 
 if __name__ == '__main__':
     args = params.get_args()
-    # main(args)
-    compare_random_with_kmeanspp(args)
+    main(args)
+    # compare_random_with_kmeanspp(args)

@@ -27,6 +27,7 @@ def get_parser():
     parser.add_argument('--init_method', type=str, choices=['random', 'kmeans++'], default='random')
     parser.add_argument('--seed', type=int, default=None)
     parser.add_argument('--visualization', type=bool, default=False)
+    parser.add_argument('--save_fig', default=None)
 
     parser.add_argument('--save', type=str, default=None)
 

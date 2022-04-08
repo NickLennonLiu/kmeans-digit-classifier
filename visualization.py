@@ -25,7 +25,7 @@ def visualization(data, target, predicted, filename=None):
 
     fig, (ax1, ax2) = plt.subplots(1,2,figsize=(16,8))
     sns.scatterplot(data=df_tsne, hue='class', hue_order=[str(i) for i in range(0,10)], x='Dim1', y='Dim2', ax=ax1)
-    ax1.set_title("TSN-E")
+    ax1.set_title("t-SNE")
     sns.scatterplot(data=df_pred, hue='class', hue_order=[str(i) for i in range(0,10)], x='Dim1', y='Dim2', ax=ax2)
     ax2.set_title("KMeans")
 
